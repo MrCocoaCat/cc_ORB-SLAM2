@@ -1,0 +1,6 @@
+/home/liyubo/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/liyubo/Code/paopao/paopao_ORB-SLAM2
+Build type: Debug
+-- Found Eigen3: /usr/include/eigen3 (Required is at least version "2.91.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug
