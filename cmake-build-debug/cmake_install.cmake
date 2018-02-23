@@ -1,4 +1,4 @@
-# Install script for directory: /home/liyubo/Code/paopao/paopao_ORB-SLAM2
+# Install script for directory: /home/liyubo/Code/cc_ORB-SLAM2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

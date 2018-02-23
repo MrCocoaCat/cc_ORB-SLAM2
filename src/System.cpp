@@ -247,12 +247,13 @@ cv::Mat System::TrackMonocular(const cv::Mat &im, const double &timestamp)
     return mpTracker->GrabImageMonocular(im,timestamp);
 }
 
+    //激活模式
 void System::ActivateLocalizationMode()
 {
     unique_lock<mutex> lock(mMutexMode);
     mbActivateLocalizationMode = true;
 }
-
+    //关闭激活模式
 void System::DeactivateLocalizationMode()
 {
     unique_lock<mutex> lock(mMutexMode);

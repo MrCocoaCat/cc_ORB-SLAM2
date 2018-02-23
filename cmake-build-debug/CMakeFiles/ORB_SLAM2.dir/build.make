@@ -43,10 +43,10 @@ RM = /home/liyubo/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liyubo/Code/paopao/paopao_ORB-SLAM2
+CMAKE_SOURCE_DIR = /home/liyubo/Code/cc_ORB-SLAM2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ORB_SLAM2.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ORB_SLAM2.dir/flags.make
 
 CMakeFiles/ORB_SLAM2.dir/src/System.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/System.cpp.o: ../src/System.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/System.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/System.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/System.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/System.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/System.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/System.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/System.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/System.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/System.cpp > CMakeFiles/ORB_SLAM2.dir/src/System.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/System.cpp > CMakeFiles/ORB_SLAM2.dir/src/System.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/System.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/System.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/System.cpp -o CMakeFiles/ORB_SLAM2.dir/src/System.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/System.cpp -o CMakeFiles/ORB_SLAM2.dir/src/System.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/System.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ORB_SLAM2.dir/src/System.cpp.o.provides.build: CMakeFiles/ORB_SLAM2.d
 
 CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.o: ../src/Tracking.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Tracking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/Tracking.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Tracking.cpp > CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/Tracking.cpp > CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Tracking.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/Tracking.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/ORB_SLAM2.dir/src/Tracking.cpp.o.provides.build: CMakeFiles/ORB_SLAM2
 
 CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.o: ../src/LocalMapping.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/LocalMapping.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/LocalMapping.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/LocalMapping.cpp > CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/LocalMapping.cpp > CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/LocalMapping.cpp -o CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/LocalMapping.cpp -o CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cpp.o.provides.build: CMakeFiles/ORB_S
 
 CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.o: ../src/LoopClosing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/LoopClosing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/LoopClosing.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/LoopClosing.cpp > CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/LoopClosing.cpp > CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/LoopClosing.cpp -o CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/LoopClosing.cpp -o CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cpp.o.provides.build: CMakeFiles/ORB_SL
 
 CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.o: ../src/ORBextractor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/ORBextractor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/ORBextractor.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/ORBextractor.cpp > CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/ORBextractor.cpp > CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/ORBextractor.cpp -o CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/ORBextractor.cpp -o CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cpp.o.provides.build: CMakeFiles/ORB_S
 
 CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.o: ../src/ORBmatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/ORBmatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/ORBmatcher.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/ORBmatcher.cpp > CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/ORBmatcher.cpp > CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/ORBmatcher.cpp -o CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/ORBmatcher.cpp -o CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cpp.o.provides.build: CMakeFiles/ORB_SLA
 
 CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.o: ../src/FrameDrawer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/FrameDrawer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/FrameDrawer.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/FrameDrawer.cpp > CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/FrameDrawer.cpp > CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/FrameDrawer.cpp -o CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/FrameDrawer.cpp -o CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cpp.o.provides.build: CMakeFiles/ORB_SL
 
 CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.o: ../src/Converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/Converter.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Converter.cpp > CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/Converter.cpp > CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Converter.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/Converter.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/ORB_SLAM2.dir/src/Converter.cpp.o.provides.build: CMakeFiles/ORB_SLAM
 
 CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.o: ../src/MapPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/MapPoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/MapPoint.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/MapPoint.cpp > CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/MapPoint.cpp > CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/MapPoint.cpp -o CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/MapPoint.cpp -o CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cpp.o.provides.build: CMakeFiles/ORB_SLAM2
 
 CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.o: ../src/KeyFrame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/KeyFrame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/KeyFrame.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/KeyFrame.cpp > CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/KeyFrame.cpp > CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/KeyFrame.cpp -o CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/KeyFrame.cpp -o CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cpp.o.provides.build: CMakeFiles/ORB_SLAM2
 
 CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.o: ../src/Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/Map.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Map.cpp > CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/Map.cpp > CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Map.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/Map.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/ORB_SLAM2.dir/src/Map.cpp.o.provides.build: CMakeFiles/ORB_SLAM2.dir/
 
 CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.o: ../src/MapDrawer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/MapDrawer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/MapDrawer.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/MapDrawer.cpp > CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/MapDrawer.cpp > CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/MapDrawer.cpp -o CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/MapDrawer.cpp -o CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cpp.o.provides.build: CMakeFiles/ORB_SLAM
 
 CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.o: ../src/Optimizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Optimizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/Optimizer.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Optimizer.cpp > CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/Optimizer.cpp > CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Optimizer.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/Optimizer.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cpp.o.provides.build: CMakeFiles/ORB_SLAM
 
 CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.o: ../src/PnPsolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/PnPsolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/PnPsolver.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/PnPsolver.cpp > CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/PnPsolver.cpp > CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/PnPsolver.cpp -o CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/PnPsolver.cpp -o CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cpp.o.provides.build: CMakeFiles/ORB_SLAM
 
 CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.o: ../src/Frame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Frame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/Frame.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Frame.cpp > CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/Frame.cpp > CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Frame.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/Frame.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/ORB_SLAM2.dir/src/Frame.cpp.o.provides.build: CMakeFiles/ORB_SLAM2.di
 
 CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.o: ../src/KeyFrameDatabase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/KeyFrameDatabase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/KeyFrameDatabase.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/KeyFrameDatabase.cpp > CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/KeyFrameDatabase.cpp > CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/KeyFrameDatabase.cpp -o CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/KeyFrameDatabase.cpp -o CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cpp.o.provides.build: CMakeFiles/O
 
 CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.o: ../src/Sim3Solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Sim3Solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/Sim3Solver.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Sim3Solver.cpp > CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/Sim3Solver.cpp > CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Sim3Solver.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/Sim3Solver.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cpp.o.provides.build: CMakeFiles/ORB_SLA
 
 CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.o: ../src/Initializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Initializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/Initializer.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Initializer.cpp > CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/Initializer.cpp > CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Initializer.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/Initializer.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/ORB_SLAM2.dir/src/Initializer.cpp.o.provides.build: CMakeFiles/ORB_SL
 
 CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.o: CMakeFiles/ORB_SLAM2.dir/flags.make
 CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.o: ../src/Viewer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.o -c /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Viewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.o -c /home/liyubo/Code/cc_ORB-SLAM2/src/Viewer.cpp
 
 CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Viewer.cpp > CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liyubo/Code/cc_ORB-SLAM2/src/Viewer.cpp > CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.i
 
 CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/paopao/paopao_ORB-SLAM2/src/Viewer.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liyubo/Code/cc_ORB-SLAM2/src/Viewer.cpp -o CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.s
 
 CMakeFiles/ORB_SLAM2.dir/src/Viewer.cpp.o.requires:
 
@@ -596,7 +596,7 @@ ORB_SLAM2_EXTERNAL_OBJECTS =
 ../lib/libORB_SLAM2.so: /usr/lib/x86_64-linux-gnu/libtiff.so
 ../lib/libORB_SLAM2.so: /usr/lib/x86_64-linux-gnu/libIlmImf.so
 ../lib/libORB_SLAM2.so: CMakeFiles/ORB_SLAM2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX shared library ../lib/libORB_SLAM2.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX shared library ../lib/libORB_SLAM2.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ORB_SLAM2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -631,6 +631,6 @@ CMakeFiles/ORB_SLAM2.dir/clean:
 .PHONY : CMakeFiles/ORB_SLAM2.dir/clean
 
 CMakeFiles/ORB_SLAM2.dir/depend:
-	cd /home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liyubo/Code/paopao/paopao_ORB-SLAM2 /home/liyubo/Code/paopao/paopao_ORB-SLAM2 /home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug /home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug /home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles/ORB_SLAM2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liyubo/Code/cc_ORB-SLAM2 /home/liyubo/Code/cc_ORB-SLAM2 /home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug /home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug /home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles/ORB_SLAM2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ORB_SLAM2.dir/depend
 

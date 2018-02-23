@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/liyubo/Code/paopao/paopao_ORB-SLAM2/Vocabulary/bin_vocabulary.cpp" "/home/liyubo/Code/paopao/paopao_ORB-SLAM2/cmake-build-debug/CMakeFiles/bin_vocabulary.dir/Vocabulary/bin_vocabulary.cpp.o"
+  "/home/liyubo/Code/cc_ORB-SLAM2/Vocabulary/bin_vocabulary.cpp" "/home/liyubo/Code/cc_ORB-SLAM2/cmake-build-debug/CMakeFiles/bin_vocabulary.dir/Vocabulary/bin_vocabulary.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
