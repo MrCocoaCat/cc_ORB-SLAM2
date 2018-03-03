@@ -78,3 +78,12 @@ target_link_libraries(rgbd_tum ${PROJECT_NAME})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Vocabulary)
 add_executable(bin_vocabulary Vocabulary/bin_vocabulary.cpp)
 target_link_libraries(bin_vocabulary ${PROJECT_SOURCE_DIR}/Thirdparty/DBoW2/lib/libDBoW2.so ${OpenCV_LIBS})
+
+add_executable(myslam
+myslam.cpp)
+target_link_libraries(myslam ${PROJECT_NAME})
+
+add_executable(myvideo
+myvideo.cpp)
+target_link_libraries(myvideo ${PROJECT_NAME})
+
